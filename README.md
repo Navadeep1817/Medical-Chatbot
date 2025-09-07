@@ -92,7 +92,11 @@ open up localhost:
 
 	
 ## 3. Create ECR repo to store/save docker image
+<<<<<<< HEAD
     - Save the URI: 674171865038.dkr.ecr.eu-north-1.amazonaws.com/medicalbot
+=======
+    - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/medicalbot
+>>>>>>> eaee2e831edc8afbd86b8f9bc4c409c98c082713
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -127,3 +131,7 @@ open up localhost:
    - AWS_DEFAULT_REGION
    - ECR_REPO
    - PINECONE_API_KEY
+<<<<<<< HEAD
+=======
+   - OPENAI_API_KEY
+>>>>>>> eaee2e831edc8afbd86b8f9bc4c409c98c082713
